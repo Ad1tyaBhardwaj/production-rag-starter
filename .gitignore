@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local vector/database artifacts
+data/
+storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local evaluation outputs
+evals/results/*
+!evals/results/.gitkeep
